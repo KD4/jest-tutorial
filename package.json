@@ -2,14 +2,15 @@
   "name": "jest-tutorial",
   "version": "1.0.0",
   "description": "",
-  "main": "sum.js",
-  "dependencies": {
+  "devDependencies": {
     "jest-cli": "^26.0.1"
   },
-  "devDependencies": {},
   "scripts": {
     "test": "jest"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "Kang DDan DDan",
+  "license": "ISC",
+  "jest": {
+      "testEnvironment": "node"
+  }
 }
