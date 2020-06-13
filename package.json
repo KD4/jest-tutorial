@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "devDependencies": {
+    "babel-jest": "^26.0.1",
     "jest-cli": "^26.0.1"
   },
   "scripts": {
@@ -11,6 +12,6 @@
   "author": "Kang DDan DDan",
   "license": "ISC",
   "jest": {
-      "testEnvironment": "node"
+    "testEnvironment": "node"
   }
 }
